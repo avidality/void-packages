@@ -1,0 +1,17 @@
+# Template file for 'aspell-el'
+pkgname=aspell-el
+version=0.08
+revision=1
+noarch=yes
+wrksrc="aspell6-el-0.08-0"
+build_style=configure
+hostmakedepends="aspell-devel"
+makedepends="aspell-devel"
+depends="aspell"
+short_desc="Hellenic dictionary for aspell"
+homepage="http://aspell.net/"
+license="GPL-2"
+maintainer="avidal <avidal@logicwrap.com>"
+distfiles="http://elspell.math.upatras.gr/files/aspell/aspell6-el-0.08-0.tar.bz2"
+checksum=4af60f1a8adf8b1899680deefdf49288d7406a2c591658f880628bf7c1604cd2
+
